@@ -1,0 +1,27 @@
+@font-face {
+  font-family: opal-icon;
+  /* src: url("../fonts/themify.eot"); */
+  /* src: url("../fonts/themify.eot?#iefix") format("embedded-opentype"), */
+  src: url("../../fonts/opal-icon.woff2") format("woff");
+  /* url("../fonts/themify.ttf") format("truetype"),
+      url("../fonts/themify.svg") format("svg"); */
+  font-weight: normal;
+  font-style: normal;
+}
+[class*="opal-icon-"]:before {
+  font-family: opal-icon;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.opal-icon-like:before {
+  content: "";
+}
+.opal-icon-user:before {
+  content: "";
+}
